@@ -1,3 +1,4 @@
+## The web page should explain the project idea, provide instructions, code, and hardware setups 
 # Hand Gesture Controlled Robot
 ECE 4180 Final Project 
 

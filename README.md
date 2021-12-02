@@ -9,7 +9,7 @@ Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 # Overview
 This project aims to create a hand gesture-controlled car that can recognize hand commands to move. It uses a Pi camera to process hand gestures, a Raspberry Pi 4 to interface with the Pi camera and translate detected hand gestures into car movements. 
 
-![4180 diagram](https://user-images.githubusercontent.com/78784280/144507873-991d5299-bcb3-4949-88cc-522cac358af1.png)
+<img src="https://user-images.githubusercontent.com/78784280/144507873-991d5299-bcb3-4949-88cc-522cac358af1.png" width="750">
 
 # Parts List
 Hardware:

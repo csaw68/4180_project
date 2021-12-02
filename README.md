@@ -1,6 +1,8 @@
 # Hand Gesture Controlled Robot
 ECE 4180 Final Project 
 
+insert image of robot - look more legit
+
 # Authors
 Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 

@@ -30,11 +30,11 @@ The number of fingers held up by the user will determine the robot’s movement.
 
 | Number of fingers held up  | Robot movement |
 | ------------- | ------------- |
+| 0  | Content   |
 | 1  | Content   |
 | 2  | Content   |
 | 3  | Content   |
 | 4  | Content   |
-| 5  | Content   |
 
 # Demo Video
 

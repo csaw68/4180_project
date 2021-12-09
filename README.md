@@ -15,6 +15,7 @@ Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
   - [mbed LPC1768](README.md#pin-connection-of-the-mbed)
 - [Table of Commands](README.md#table-of-commands)
 - [Instructions](README.md#instructions)
+- [Summary Video](README.md#summary-video)
 - [Demo Video](README.md#demo-video)
 - [Future Improvements](README.md#future-improvements)
 
@@ -91,8 +92,12 @@ After obtaining the hardware, follow the instructions that came with each part t
   - The code to run the mbed can be found here: *insert link to mbed repo*
   - Pi? *how did you guys run the Pi from terminal? what code? do you have to download the code from somewhere and store them somewhere?*
 
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
+
 # Summary Video
 https://www.youtube.com/watch?v=mAgygFNm7wE
+
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Demo Video
 

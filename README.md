@@ -7,16 +7,6 @@ insert image of robot - look more legit
 # Authors
 Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 
-# Table of Contents
-- [Overview](README.md#overview)
-- [Parts List](README.md#commands-diagram)
-- [Hardware Setups](README.md#running-the-code)
-- [Table of Commands](README.md#parts-list)
-- [Instructions](README.md#instruction)
-- [Demo Video](README.md#demo-video)
-- [Future Improvements](README.md#demo-video)
-
-
 # Overview
 This project aims to create a hand gesture-controlled car that can recognize hand commands to move and perform four motions. It uses a Pi camera to capture hand gestures, a Raspberry Pi 4 to interface with the Pi camera and translate detected hand gestures into commands that are sent to a server run by an MBED (using a ESP8266 module). Finally, the MBED takes the commands and moves the robot accordingly.
 
@@ -50,6 +40,9 @@ Software:
 
 ### The Pi sends data to the mbed over a wifi ESP8266 module (used in Lab 2). A server was established for their connection. In this case at address http://192.168.1.10/ 
 <img src="https://user-images.githubusercontent.com/78784280/145407604-073c9c47-6015-49ab-a1c0-314970d15053.png" width="500">
+
+## Guide to Vehicle's Base Build
+https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis/all
 
 # Table of Commands
 The number of fingers held up by the user will determine the robot’s movement.

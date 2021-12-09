@@ -1,7 +1,7 @@
 # Hand Gesture Controlled Robot through OpenCV and an IoT Webserver
 ECE 4180 Final Project 
 
-insert image of robot - look more legit
+<img src="https://user-images.githubusercontent.com/78784280/145456514-06a19176-1532-46f3-b22f-5fb9e83ddda6.jpeg" width="850">
 
 # Authors
 Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw

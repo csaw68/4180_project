@@ -90,8 +90,8 @@ After obtaining the hardware, follow the instructions that came with each part t
 
 - Running the code
   - The code to run the mbed can be found here: *insert link to mbed repo*
-    - Compile the Project_Wifi_Config program into the mbed to ensure the ESP8266 is connected to the wifi network.
-    - Compile the Project_Wifi_Server program into the mbed. This step initializes the server that connects the Pi and mbed and allows the mbed to receive messages from the Pi.
+    - Compile the *Project_Wifi_Config* program into the mbed to ensure the ESP8266 is connected to the wifi network.
+    - Compile the *Project_Wifi_Server* program into the mbed. This step initializes the server that connects the Pi and mbed and allows the mbed to receive messages from the Pi.
   - Pi? *how did you guys run the Pi from terminal? what code? do you have to download the code from somewhere and store them somewhere?*
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)

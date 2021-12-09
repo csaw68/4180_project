@@ -1,5 +1,5 @@
 ## The web page should explain the project idea, provide instructions, code, and hardware setups 
-# Hand Gesture Controlled Robot
+# Hand Gesture Controlled Robot through OpenCV and an IoT Webserver
 ECE 4180 Final Project 
 
 insert image of robot - look more legit

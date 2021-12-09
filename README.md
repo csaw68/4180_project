@@ -66,6 +66,7 @@ The number of fingers held up by the user will determine the robot’s movement.
 
 | Number of fingers held up  | Robot movement |
 | ------------- | ------------- |
+| 0  | No Motion   |
 | 1  | Forward   |
 | 2  | Reverse   |
 | 3  | Right Turn|

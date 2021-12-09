@@ -107,18 +107,18 @@ https://www.youtube.com/watch?v=mAgygFNm7wE
 
 The video above summarizes the basic functionality of the 3 programs needed to control the car:
 1. **handtracker_to_Server.py**
-  - found in Handtracking folder, must be run in IDE, in our case, we use Thonny
+  - located in Handtracking folder on Github, must be run in IDE, in our case, we use Thonny
   - uses OpenCV to read hand gestures
   - relies on MediaPipe’s handmodule, which sections the hand into 20 distinct points
   - the main function handles the OpenCV/Computer Vision component of project
   - draws the camera window, tracks current gesture, then sends the number of finger’s held up to the MBED through the send_command() function.
 2. **Project_Wifi_Config**
-  - found in MBED repo and Github
+  - located in both MBED repo and Github
   - download the program to the MBED to ensure the ESP8266 is connected to your wifi network
   - terminal will display the IP address of the server (change the address in handetracker_to_Server.py accordingly)
   - the SSID and password of the network is saved to the ESP8266, may need to be rerun if the wifi disconnects
 3. **Project_Wifi_Server**
-  - found in MBED repo and Github
+  - located in both MBED repo and Github
   - initializes server, so it is ready to interpret messages from the Pi into motion
 
 

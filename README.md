@@ -11,7 +11,7 @@ Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 - [Overview](README.md#overview)
 - [Parts List](README.md#parts-list)
 - [Hardware Setups](README.md#hardware-setups)
-  - [Robot] (README.md#robot-setup)
+  - [Vehicle Setup](README.md#vehicle-setup)
   - [Raspberry Pi 4](README.md#pin-connection-of-the-pi)
   - [mbed LPC1768](README.md#pin-connection-of-the-mbed)
 - [Table of Commands](README.md#table-of-commands)
@@ -44,8 +44,8 @@ Software:
 
 # Hardware Setups
 
-## Robot Setup
-Instructions on how to assemble the robot can be found here: https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis/all
+## Vehicle Setup
+Instructions on how to assemble the vehicle's base build can be found here: https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis/all
 
 ## Pin connection of the Pi
 <img src="https://user-images.githubusercontent.com/78784280/145406918-eed09443-98ee-4211-9d10-eaa107adf42a.PNG" width="500">

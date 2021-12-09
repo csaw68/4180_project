@@ -73,6 +73,22 @@ The number of fingers held up by the user will determine the robot’s movement.
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
+# Instructions
+After obtaining the hardware, follow the instructions that came with each part to setup the environment.
+
+Raspberry Pi 4
+- https://www.raspberrypi.com/documentation/computers/getting-started.html
+
+Pi camera
+- *insert link Gary?*
+
+Hardware setup
+- Build the robot and setup the Pi and mbed connections following instructions in [Hardware Setups](README.md#hardware-setups)
+
+Running the code
+- The code to run the mbed can be found here: *insert link to mbed repo*
+- Pi?
+
 # Demo Video
 
 insert link here

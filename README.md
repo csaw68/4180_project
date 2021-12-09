@@ -36,7 +36,7 @@ Software:
 ## Pin connection of the mbed
 <img src="https://user-images.githubusercontent.com/78784280/145406927-b24258c0-04cc-4c60-99fb-eeafa61f566d.PNG" width="800">
 
-### The Pi sends data to the mbed over a wifi ESP8266 module (used in Lab 3). A server was established for their connection. 
+### The Pi sends data to the mbed over a wifi ESP8266 module (used in Lab 2). A server was established for their connection. 
 <img src="https://user-images.githubusercontent.com/78784280/145407604-073c9c47-6015-49ab-a1c0-314970d15053.png" width="500">
 
 # Table of Commands

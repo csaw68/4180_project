@@ -50,10 +50,10 @@ This project aims to create a hand gesture-controlled car that can recognize han
 ## Vehicle Setup
 Instructions on how to assemble the vehicle's base build can be found here: https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis/all
 
-## Pin connection of the Pi
+## Pin Connection of the Pi
 <img src="https://user-images.githubusercontent.com/78784280/145406918-eed09443-98ee-4211-9d10-eaa107adf42a.PNG" width="500">
 
-## Pin connection of the mbed
+## Pin Connection of the mbed
 <img src="https://user-images.githubusercontent.com/78784280/145406927-b24258c0-04cc-4c60-99fb-eeafa61f566d.PNG" width="800">
 
 ### The Pi sends data to the mbed over a wifi ESP8266 module (used in Lab 2). A server was established for their connection. In this case at address http://192.168.1.10/ 
@@ -80,7 +80,7 @@ After obtaining the hardware, follow the instructions that came with each part t
 - Raspberry Pi 4
   - https://www.raspberrypi.com/documentation/computers/getting-started.html
 
-- Pi camera
+- Pi Camera
   - https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 
 - OpenCV tutorial for hand-gesture detection

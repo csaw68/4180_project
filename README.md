@@ -11,6 +11,7 @@ Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 - [Overview](README.md#overview)
 - [Parts List](README.md#parts-list)
 - [Hardware Setups](README.md#hardware-setups)
+  - [Robot] (README.md#robot-setup)
   - [Raspberry Pi 4](README.md#pin-connection-of-the-pi)
   - [mbed LPC1768](README.md#pin-connection-of-the-mbed)
 - [Table of Commands](README.md#table-of-commands)
@@ -43,6 +44,9 @@ Software:
 
 # Hardware Setups
 
+## Robot Setup
+Instructions on how to assemble the robot can be found here: https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis/all
+
 ## Pin connection of the Pi
 <img src="https://user-images.githubusercontent.com/78784280/145406918-eed09443-98ee-4211-9d10-eaa107adf42a.PNG" width="500">
 
@@ -51,9 +55,6 @@ Software:
 
 ### The Pi sends data to the mbed over a wifi ESP8266 module (used in Lab 2). A server was established for their connection. In this case at address http://192.168.1.10/ 
 <img src="https://user-images.githubusercontent.com/78784280/145407604-073c9c47-6015-49ab-a1c0-314970d15053.png" width="500">
-
-## Guide to Vehicle's Base Build
-https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis/all
 
 # Table of Commands
 The number of fingers held up by the user will determine the robot’s movement.

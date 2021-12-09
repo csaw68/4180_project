@@ -15,10 +15,11 @@ This project aims to create a hand gesture-controlled car that can recognize han
 # Parts List
 Hardware:
 - Raspberry Pi 4
+- mbed LPC1768
 - Pi Camera
-- DC motors 
+- 2 DC motors 
 - Dual H-bridge breakout board 
-- LED lights
+- 4 LED lights (and 330 Ohm resistors)
 - Power supply with stable amp (4AA battery pack and power bank)
 - ESP8266 module
 

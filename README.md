@@ -80,18 +80,16 @@ After obtaining the hardware, follow the instructions that came with each part t
   - https://www.raspberrypi.com/documentation/computers/getting-started.html
 
 - Pi camera
-  - *insert link Gary?*
+  - https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 
 - OpenCV tutorial for hand-gesture detection
-  - *insert link Gary*
+  - https://google.github.io/mediapipe/solutions/hands.html
 
 - Hardware setup
   - Build the robot and setup the Pi and mbed connections following instructions in [Hardware Setups](README.md#hardware-setups)
 
 - Running the code
   - The code to run the mbed can be found here: *insert link to mbed repo*
-  1. Compile the Project_Wifi_Config program into the mbed to ensure the ESP8266 connects to the wifi network.
-  2. Compile the Project_Wifi_Server program into the mbed. This step initializes the server to connect to the Pi and receive messages from it.
   - Pi? *how did you guys run the Pi from terminal? what code? do you have to download the code from somewhere and store them somewhere?*
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)

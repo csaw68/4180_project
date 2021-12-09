@@ -126,7 +126,7 @@ The video above summarizes the basic functionality of the 3 programs needed to c
 
 # Demo Video
 
-Demo video of the robot's operations: https://www.youtube.com/watch?v=9tCQLGX4CgQ&feature=emb_logo
+Short demo video of the robot's operations: https://www.youtube.com/watch?v=9tCQLGX4CgQ&feature=emb_logo
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 

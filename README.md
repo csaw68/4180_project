@@ -1,4 +1,3 @@
-## The web page should explain the project idea, provide instructions, code, and hardware setups 
 # Hand Gesture Controlled Robot through OpenCV and an IoT Webserver
 ECE 4180 Final Project 
 
@@ -92,6 +91,9 @@ After obtaining the hardware, follow the instructions that came with each part t
   - The code to run the mbed can be found here: *insert link to mbed repo*
   - Pi? *how did you guys run the Pi from terminal? what code? do you have to download the code from somewhere and store them somewhere?*
 
+# Summary Video
+https://www.youtube.com/watch?v=mAgygFNm7wE
+
 # Demo Video
 
 insert link here
@@ -99,10 +101,11 @@ insert link here
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Future Improvements
-- Wider range of robot motions 
-- Controllable speed
+- Include a wider range of robot motions 
+- Be able to control speed with gestures
 - Detection of gestures beyond number of fingers
-- Secondary camera to the mobile robot for live video
+- Add a secondary camera to the mobile robot for live video as it moves
+- Add more detail to the server webpage, such as what command is currently being executed
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 

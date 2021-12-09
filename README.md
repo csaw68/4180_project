@@ -8,7 +8,7 @@ insert image of robot - look more legit
 Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 
 # Overview
-This project aims to create a hand gesture-controlled car that can recognize hand commands to move perform four motions of the robot. It uses a Pi camera to capture hand gestures, a Raspberry Pi 4 to interface with the Pi camera and translate detected hand gestures into commands that are sent to a server run by an MBED (using a ESP8266 module).
+This project aims to create a hand gesture-controlled car that can recognize hand commands to move perform four motions of the robot. It uses a Pi camera to capture hand gestures, a Raspberry Pi 4 to interface with the Pi camera and translate detected hand gestures into commands that are sent to a server run by an MBED (using a ESP8266 module). Finally, the MBED takes the commands and moves the robot accordingly.
 
 <img src="https://user-images.githubusercontent.com/78784280/145406626-4b1c1e76-71f7-47f4-ae24-0832096a899d.png" width="800">
 
@@ -20,7 +20,7 @@ Hardware:
 - Dual H-bridge breakout board 
 - LED lights
 - Power supply with stable amp (4AA battery pack and power bank)
-- ESP8266
+- ESP8266 module
 
 Software:
 - Python 3
@@ -36,7 +36,7 @@ Software:
 ## Pin connection of the mbed
 <img src="https://user-images.githubusercontent.com/78784280/145406927-b24258c0-04cc-4c60-99fb-eeafa61f566d.PNG" width="800">
 
-### ** unsure on elaboration ** The mbed and Pi exchange information over a wifi module (used in Lab 2). A server was established for their connection. 
+### The Pi sends data to the mbed over a wifi ESP8266 module (used in Lab 2). A server was established for their connection. 
 <img src="https://user-images.githubusercontent.com/78784280/145407604-073c9c47-6015-49ab-a1c0-314970d15053.png" width="500">
 
 # Table of Commands

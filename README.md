@@ -82,12 +82,15 @@ Raspberry Pi 4
 Pi camera
 - *insert link Gary?*
 
+OpenCV setup
+- *insert link Gary*
+
 Hardware setup
 - Build the robot and setup the Pi and mbed connections following instructions in [Hardware Setups](README.md#hardware-setups)
 
 Running the code
 - The code to run the mbed can be found here: *insert link to mbed repo*
-- Pi?
+- Pi? *how did you guys run the Pi from terminal? what code? do you have to download the code from somewhere and store them somewhere?*
 
 # Demo Video
 

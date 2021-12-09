@@ -24,7 +24,7 @@ This project aims to create a hand gesture-controlled car that can recognize han
 
 <img src="https://user-images.githubusercontent.com/78784280/145411276-7d4bd055-054c-4d5b-b3a5-7a5d652541ab.png" width="850">
 
-[back to top](README.md)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Parts List
 Hardware:
@@ -43,7 +43,7 @@ Software:
 - Thonny - compiler seen in demo
 - MBED online compiler
 
-[back to top](README.md)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Hardware Setups
 
@@ -59,7 +59,7 @@ Instructions on how to assemble the vehicle's base build can be found here: http
 ### The Pi sends data to the mbed over a wifi ESP8266 module (used in Lab 2). A server was established for their connection. In this case at address http://192.168.1.10/ 
 <img src="https://user-images.githubusercontent.com/78784280/145407604-073c9c47-6015-49ab-a1c0-314970d15053.png" width="500">
 
-[back to top](README.md)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Table of Commands
 The number of fingers held up by the user will determine the robot’s movement.
@@ -71,15 +71,15 @@ The number of fingers held up by the user will determine the robot’s movement.
 | 3  | Right Turn|
 | 4  | Left Turn |
 
-[back to top](README.md)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Demo Video
 
 insert link here
 
-[back to top](README.md)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Future Improvements
 
-[back to top](README.md)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 

@@ -76,21 +76,21 @@ The number of fingers held up by the user will determine the robot’s movement.
 # Instructions
 After obtaining the hardware, follow the instructions that came with each part to setup the environment.
 
-Raspberry Pi 4
-- https://www.raspberrypi.com/documentation/computers/getting-started.html
+- Raspberry Pi 4
+  - https://www.raspberrypi.com/documentation/computers/getting-started.html
 
-Pi camera
-- *insert link Gary?*
+- Pi camera
+  - *insert link Gary?*
 
-OpenCV setup
-- *insert link Gary*
+- OpenCV setup
+  - *insert link Gary*
 
-Hardware setup
-- Build the robot and setup the Pi and mbed connections following instructions in [Hardware Setups](README.md#hardware-setups)
+- Hardware setup
+  - Build the robot and setup the Pi and mbed connections following instructions in [Hardware Setups](README.md#hardware-setups)
 
-Running the code
-- The code to run the mbed can be found here: *insert link to mbed repo*
-- Pi? *how did you guys run the Pi from terminal? what code? do you have to download the code from somewhere and store them somewhere?*
+-   Running the code
+  - The code to run the mbed can be found here: *insert link to mbed repo*
+  - Pi? *how did you guys run the Pi from terminal? what code? do you have to download the code from somewhere and store them somewhere?*
 
 # Demo Video
 

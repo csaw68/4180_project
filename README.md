@@ -99,6 +99,10 @@ insert link here
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Future Improvements
+- Wider range of robot motions 
+- Controllable speed
+- Detection of gestures beyond number of fingers
+- Secondary camera to the mobile robot for live video
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 

@@ -137,6 +137,7 @@ void ReadWebData()
     rx_in = 0;
     rx_out = 0;
     // check web data for form information
+    //total visible fingers correlates to motion of car
     if( strstr(webdata, "command=1") != NULL ) {
         Forward();
     }

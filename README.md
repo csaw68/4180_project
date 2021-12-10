@@ -52,6 +52,8 @@ Instructions on how to assemble the vehicle's base build can be found here: http
 Our design does not include the "Nub Caster":
   <img src="https://user-images.githubusercontent.com/48961286/145506225-1a25da07-c843-4ff9-9a81-8418eba2676a.png">
 It's purpose it to balance the robot so it's always parallel to the floor; however, it frequently scraped against the ground and interferred with the intended trajectory of the robot's movements, and resulted in slanted motions.
+To compensate, the speeds and durations for each motion is as follows (found in Project_Wifi_Server):
+
 
 ## Pin Connection of the Pi
 <img src="https://user-images.githubusercontent.com/78784280/145406918-eed09443-98ee-4211-9d10-eaa107adf42a.PNG" width="500">

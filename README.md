@@ -49,6 +49,9 @@ This project aims to create a hand gesture-controlled car that can recognize han
 
 ## Vehicle Setup
 Instructions on how to assemble the vehicle's base build can be found here: https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis/all
+Our design does not include the "Nub Caster":
+  ![image](https://user-images.githubusercontent.com/48961286/145506225-1a25da07-c843-4ff9-9a81-8418eba2676a.png)
+It's purpose it to balance the robot so it's always parallel to the floor; however, it frequently scraped against the ground and interferred with the intended trajectory of the robot's movements, and resulted in slanted motions.
 
 ## Pin Connection of the Pi
 <img src="https://user-images.githubusercontent.com/78784280/145406918-eed09443-98ee-4211-9d10-eaa107adf42a.PNG" width="500">
@@ -66,12 +69,12 @@ The number of fingers held up by the user will determine the robot’s movement.
 
 | Number of fingers held up  | Robot movement |
 | ------------- | ------------- |
-| 0  | Hand not detected - Alerts users that their hand is not visible  |
+| 0  | Hand not Detected - Alerts Users that their hand is not visible  |
 | 1  | Forward   |
 | 2  | Reverse   |
 | 3  | Right Turn|
 | 4  | Left Turn |
-| 5  | Hand detected - Alerts users that their hand is visible and gestures will be tracked |
+| 5  | Hand Detected - Alerts Users that their hand is visible and gestures will be tracked |
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 

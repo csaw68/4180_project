@@ -50,7 +50,7 @@ This project aims to create a hand gesture-controlled car that can recognize han
     - Motor - MBED library to control DC motors through H-Bridge
   
 
-[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-cvcar)
 
 # Hardware Setups
 
@@ -119,7 +119,7 @@ void Reverse(){
 <img src="https://user-images.githubusercontent.com/78784280/145407604-073c9c47-6015-49ab-a1c0-314970d15053.png" width="500">
 
 
-[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-cvcar)
 
 # Table of Commands
 The number of fingers held up by the user will determine the robot’s movement.
@@ -137,7 +137,7 @@ When handtracker_to_Server.py is run, red dots appear on the hand when the hand 
 ![4180HandCapture](https://user-images.githubusercontent.com/48961286/145516818-f8dc7ac0-6c26-4e83-aff4-f62e1844fe4b.PNG)
 
 
-[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-cvcar)
 
 # Instructions
 After obtaining the hardware, follow the instructions that came with each part to setup the environment.
@@ -164,7 +164,7 @@ After obtaining the hardware, follow the instructions that came with each part t
     - NOTE: Running handtracker_to_Server.py in an IDE results in smoother framerate
   
 
-[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-cvcar)
 
 # Summary Video
 
@@ -215,7 +215,7 @@ The video above summarizes the basic functionality of the 3 programs needed to c
 
 
 
-[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-cvcar)
 
 # Demo Video
 
@@ -233,7 +233,8 @@ https://docs.google.com/presentation/d/1Q2dnvHehjRTc9gWVgPLmKQxMYCxeDP0f9oN5fYWS
 - Detection of gestures beyond number of fingers
 - Add a secondary camera to the mobile robot for live video as it moves
 - Add more detail to the server webpage, such as what command is currently being executed
+- Find method for more reliable wifi connection
 
-[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-cvcar)
 
 

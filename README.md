@@ -188,6 +188,10 @@ The video above summarizes the basic functionality of the 3 programs needed to c
         pass
     pass
   ```
+  - To avoid bombarding the server with commands, the current gesture and previous gesture are tracked, and a command is only sent when they do not equal each other (i.e. when   the user makes a new gesture
+  ```
+  
+  ```
 2. **Project_Wifi_Config**
   - located in both MBED repo and Github
   - download the program to the MBED to ensure the ESP8266 is connected to your wifi network

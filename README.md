@@ -50,7 +50,7 @@ This project aims to create a hand gesture-controlled car that can recognize han
 ## Vehicle Setup
 Instructions on how to assemble the vehicle's base build can be found here: https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis/all
 Our design does not include the "Nub Caster":
-  ![image](https://user-images.githubusercontent.com/48961286/145506225-1a25da07-c843-4ff9-9a81-8418eba2676a.png)
+  <img src="https://user-images.githubusercontent.com/48961286/145506225-1a25da07-c843-4ff9-9a81-8418eba2676a.png">
 It's purpose it to balance the robot so it's always parallel to the floor; however, it frequently scraped against the ground and interferred with the intended trajectory of the robot's movements, and resulted in slanted motions.
 
 ## Pin Connection of the Pi

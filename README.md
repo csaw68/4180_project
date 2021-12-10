@@ -133,6 +133,9 @@ The number of fingers held up by the user will determine the robot’s movement.
 | 4  | Left Turn |
 | 5  | Hand Detected - Alerts Users that their hand is visible and gestures will be tracked |
 
+![4180HandCapture](https://user-images.githubusercontent.com/48961286/145516818-f8dc7ac0-6c26-4e83-aff4-f62e1844fe4b.PNG)
+
+
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Instructions

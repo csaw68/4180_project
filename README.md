@@ -18,6 +18,7 @@ Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 - [Summary Video](README.md#summary-video)
 - [Demo Video](README.md#demo-video)
 - [Future Improvements](README.md#future-improvements)
+- [Final Demo Submission](README.md#final-demo-submission)
 
 # Overview
 This project aims to create a hand gesture-controlled car that can recognize hand commands to move and perform four motions (forward, reverse, right turn, left turn). It uses a Pi camera to capture hand gestures, a Raspberry Pi 4 to interface with the Pi camera and translate detected hand gestures into commands that are sent to a server run by an MBED (using a ESP8266 module). Finally, the MBED takes the commands and moves the robot accordingly.
@@ -236,5 +237,8 @@ https://docs.google.com/presentation/d/1Q2dnvHehjRTc9gWVgPLmKQxMYCxeDP0f9oN5fYWS
 - Find method for more reliable wifi connection
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-cvcar)
+
+# Final Demo Submission
+Due to connectivity issue with GTother on campus, Dr. Hamblen has allowed the team to submit a longer video demo instead of an in-person demosnstration. If he would like it to be a part of the GitHub, it will be posted here.
 
 

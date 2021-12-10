@@ -28,20 +28,27 @@ This project aims to create a hand gesture-controlled car that can recognize han
 
 # Parts List
 - Hardware:
-  - Raspberry Pi 4
-  - mbed LPC1768
+  - Raspberry Pi 4 (model B)
+  - MBED LPC1768
   - Pi Camera
   - 2 DC motors 
   - Dual H-bridge breakout board 
   - 4 LED lights (and 330 Ohm resistors)
-  - Power supply with stable amp (4AA battery pack and power bank)
+  - Power supply with stable amp (4AA battery pack to power ESP8266 and H-bridge, and power bank to power MBED)
   - ESP8266 Adafruit module
 
 - Software:
-  - Python 3
-  - OpenCV
-  - Thonny - compiler seen in demo
-  - MBED online compiler
+  - Languages:  
+    - Python 3 - see Handtracking/handtracker_to_Server.py
+    - C++ - see Project_Wifi_Config and Project_Wifi_Server
+  - Compilers:
+    - Thonny - compiler seen in demo for python
+    - MBED online compiler
+  - Libraries:
+    - OpenCV - library for real time computer vision
+    - MediaPipe - library for hand modules/hand tracking
+    - Motor - MBED library to control DC motors through H-Bridge
+  
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 

@@ -91,8 +91,8 @@ After obtaining the hardware, follow the instructions that came with each part t
 
 - Running the code
   - mbed LPC1768
-    - Compile the *Project_Wifi_Config* program into the mbed to ensure the ESP8266 is connected to the wifi network. *Link to repo*: https://os.mbed.com/users/fyousuf6/code/ECE4180_WirelessGestureControlCar_CVcar_/
-    - Compile the *Project_Wifi_Server* program into the mbed. This step initializes the server that connects the Pi and mbed and allows the mbed to receive messages from the Pi. *Link to repo*: https://os.mbed.com/users/fyousuf6/code/ECE4180-WirelessGestureControlCar_CVcar_/rev/ce3305cf50b4/
+    - Compile the *Project_Wifi_Config* program into the mbed to ensure the ESP8266 is connected to the wifi network. **Link to repo**: https://os.mbed.com/users/fyousuf6/code/ECE4180_WirelessGestureControlCar_CVcar_/
+    - Compile the *Project_Wifi_Server* program into the mbed. This step initializes the server that connects the Pi and mbed and allows the mbed to receive messages from the Pi. **Link to repo**: https://os.mbed.com/users/fyousuf6/code/ECE4180-WirelessGestureControlCar_CVcar_/rev/ce3305cf50b4/
   - Raspberry Pi 4
     - Download the *Handtracking* files to a directory and open terminal in that directory.
     - Run the hand gesture detection program ```python3 handtracker_to_Server.py```

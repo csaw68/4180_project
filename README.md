@@ -59,7 +59,7 @@ Instructions on how to assemble the vehicle's base build can be found here: http
 Our design does not include the "Nub Caster":
   <img src="https://user-images.githubusercontent.com/48961286/145506225-1a25da07-c843-4ff9-9a81-8418eba2676a.png">
 It's purpose it to balance the robot so it's always parallel to the floor; however, it frequently scraped against the ground and interferred with the intended trajectory of the robot's movements, and resulted in slanted motions.
-### To compensate, the speeds and durations for each motion is as follows (found in Project_Wifi_Server):
+### To compensate for the robot being off balance, the speeds and durations for each motion is as follows (found in Project_Wifi_Server):
 Turns are at full speed and last half a second. Forward and Reverse are at 80% pwm and last five seconds. 
 ```
 void LeftTurn(){
@@ -173,9 +173,11 @@ https://www.youtube.com/watch?v=mAgygFNm7wE
 The video above summarizes the basic functionality of the 3 programs needed to control the car:
 1. **handtracker_to_Server.py**
   - located in Handtracking folder on Github, must be run in IDE, in our case, we use Thonny
-  - uses OpenCV to read hand gestures
-  - relies on MediaPipe’s handmodule, which sections the hand into 20 distinct points
-  - the main function handles the OpenCV/Computer Vision component of project
+  - must share a directory with the "Fingers" folder, as the program references the five images to run the MediaPipe hand module (Handtracking/Fingers)
+  - uses OpenCV to process images
+  - relies on MediaPipe’s handmodule, which sections the hand into 20 distinct points, to read hand gestures
+  - the main function handles the OpenCV/Computer Vision and handtracking components of project
+  - External LED's connected through GPIO, see Pin Connection of the Pi, are also turned on according to how many fingers are visible (ex. three fingers up result in LEDs 1, 2, and 3 truning on)
   - draws the camera window, tracks current gesture, then sends the number of finger’s held up to the MBED through the send_command() function.
   ```
   def send_command(data_in):
@@ -190,7 +192,11 @@ The video above summarizes the basic functionality of the 3 programs needed to c
   ```
   - To avoid bombarding the server with commands, the current gesture and previous gesture are tracked, and a command is only sent when they do not equal each other (i.e. when   the user makes a new gesture
   ```
-  
+  ##will only update server if the gesture has changed (ensures server isn't bombarded with messages)    
+               if previousGesture!=currentGesture:
+                   send_command(str(int(currentGesture)))
+                   previousGesture=currentGesture
+
   ```
 2. **Project_Wifi_Config**
   - located in both MBED repo and Github
@@ -203,6 +209,7 @@ The video above summarizes the basic functionality of the 3 programs needed to c
 3. **Project_Wifi_Server**
   - located in both MBED repo and Github
   - initializes server, so it is ready to interpret messages from the Pi into motion
+  - built in LEDs on the MBED are switched on when the corresponding motion occures (see gestures 1-4 in Table of Commands)
   - below is a screenshot of the MBED terminal (through PuTTY) showing the server is online and ready to receive the Pi's commands
   ![Creation of Server](https://user-images.githubusercontent.com/48961286/145517346-c388413e-a316-42bd-9998-693b79ddc301.PNG)
 

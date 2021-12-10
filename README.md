@@ -66,12 +66,12 @@ The number of fingers held up by the user will determine the robot’s movement.
 
 | Number of fingers held up  | Robot movement |
 | ------------- | ------------- |
-| 0  | Hand not Detected - Alerts Users that their hand is not visible  |
+| 0  | Hand not detected - Alerts users that their hand is not visible  |
 | 1  | Forward   |
 | 2  | Reverse   |
 | 3  | Right Turn|
 | 4  | Left Turn |
-| 5  | Hand Detected - Alerts Users that their hand is visible and gestures will be tracked |
+| 5  | Hand detected - Alerts users that their hand is visible and gestures will be tracked |
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 

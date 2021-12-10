@@ -12,7 +12,7 @@ Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 - [Hardware Setups](README.md#hardware-setups)
   - [Vehicle Setup](README.md#vehicle-setup)
   - [Raspberry Pi 4](README.md#pin-connection-of-the-pi)
-  - [mbed LPC1768](README.md#pin-connection-of-the-mbed)
+  - [MBED LPC1768](README.md#pin-connection-of-the-mbed)
 - [Table of Commands](README.md#table-of-commands)
 - [Instructions](README.md#instructions)
 - [Summary Video](README.md#summary-video)
@@ -24,7 +24,7 @@ This project aims to create a hand gesture-controlled car that can recognize han
 
 <img src="https://user-images.githubusercontent.com/78784280/145411276-7d4bd055-054c-4d5b-b3a5-7a5d652541ab.png" width="850">
 
-[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-"cvcar")
+[back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver-cvcar)
 
 # Parts List
 - Hardware:

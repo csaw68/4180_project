@@ -155,7 +155,7 @@ After obtaining the hardware, follow the instructions that came with each part t
   - Build the robot and setup the Pi and mbed connections following instructions in [Hardware Setups](README.md#hardware-setups)
 
 - Running the code
-  - mbed LPC1768
+  - MBED LPC1768
     - Compile the *Project_Wifi_Config* program into the mbed to ensure the ESP8266 is connected to the wifi network. **Link to repo**: https://os.mbed.com/users/fyousuf6/code/ECE4180_WirelessGestureControlCar_CVcar_/
     - Compile the *Project_Wifi_Server* program into the mbed. This step initializes the server that connects the Pi and mbed and allows the mbed to receive messages from the Pi. **Link to repo**: https://os.mbed.com/users/fyousuf6/code/ECE4180-WirelessGestureControlCar_CVcar_/rev/ce3305cf50b4/
   - Raspberry Pi 4
@@ -177,7 +177,7 @@ The video above summarizes the basic functionality of the 3 programs needed to c
   - uses OpenCV to process images
   - relies on MediaPipe’s handmodule, which sections the hand into 20 distinct points, to read hand gestures
   - the main function handles the OpenCV/Computer Vision and handtracking components of project
-  - External LED's connected through GPIO, see Pin Connection of the Pi, are also turned on according to how many fingers are visible (ex. three fingers up result in LEDs 1, 2, and 3 truning on)
+  - External LED's connected through GPIO, see [Pin Connection of the Pi](README.md#pin-connection-of-the-pi), are also turned on according to how many fingers are visible (ex. three fingers up result in LEDs 1, 2, and 3 truning on)
   - draws the camera window, tracks current gesture, then sends the number of finger’s held up to the MBED through the send_command() function.
   ```
   def send_command(data_in):
@@ -209,7 +209,7 @@ The video above summarizes the basic functionality of the 3 programs needed to c
 3. **Project_Wifi_Server**
   - located in both MBED repo and Github
   - initializes server, so it is ready to interpret messages from the Pi into motion
-  - built in LEDs on the MBED are switched on when the corresponding motion occures (see gestures 1-4 in Table of Commands)
+  - built in LEDs on the MBED are switched on when the corresponding motion occures (see gestures 1-4 in [Table of Commands](README.md#table-of-commands))
   - below is a screenshot of the MBED terminal (through PuTTY) showing the server is online and ready to receive the Pi's commands
   ![Creation of Server](https://user-images.githubusercontent.com/48961286/145517346-c388413e-a316-42bd-9998-693b79ddc301.PNG)
 

@@ -1,5 +1,5 @@
 # Hand Gesture Controlled Robot through OpenCV and an IoT Webserver "CVcar"
-ECE 4180 Final Project 
+ECE 4180 Final Project (Fall 2021 - Section A)
 
 <img src="https://user-images.githubusercontent.com/78784280/145456514-06a19176-1532-46f3-b22f-5fb9e83ddda6.jpeg" width="850">
 
@@ -66,11 +66,12 @@ The number of fingers held up by the user will determine the robot’s movement.
 
 | Number of fingers held up  | Robot movement |
 | ------------- | ------------- |
-| 0  | No Motion   |
+| 0  | Hand not Detected - Alerts Users that their hand is not visible  |
 | 1  | Forward   |
 | 2  | Reverse   |
 | 3  | Right Turn|
 | 4  | Left Turn |
+| 5  | Hand Detected - Alerts Users that their hand is visible and gestures will be tracked |
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 

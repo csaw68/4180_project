@@ -133,6 +133,7 @@ The number of fingers held up by the user will determine the robot’s movement.
 | 4  | Left Turn |
 | 5  | Hand Detected - Alerts Users that their hand is visible and gestures will be tracked |
 
+When handtracker_to_Server.py is run, red dots appear on the hand when the hand is recognized. Also, the camera view has prompts to alert the user what is happening. In this case, the hand is now visible and the user is ready to make a gesture.
 ![4180HandCapture](https://user-images.githubusercontent.com/48961286/145516818-f8dc7ac0-6c26-4e83-aff4-f62e1844fe4b.PNG)
 
 
@@ -159,7 +160,8 @@ After obtaining the hardware, follow the instructions that came with each part t
     - Compile the *Project_Wifi_Server* program into the mbed. This step initializes the server that connects the Pi and mbed and allows the mbed to receive messages from the Pi. **Link to repo**: https://os.mbed.com/users/fyousuf6/code/ECE4180-WirelessGestureControlCar_CVcar_/rev/ce3305cf50b4/
   - Raspberry Pi 4
     - Download the *Handtracking* files to a directory and open terminal in that directory.
-    - Run the hand gesture detection program ```python3 handtracker_to_Server.py```
+    - Run the hand gesture detection program ```python3 handtracker_to_Server.py``` or in the IDE
+    - NOTE: Running handtracker_to_Server.py in an IDE results in smoother framerate
   
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
@@ -175,14 +177,23 @@ The video above summarizes the basic functionality of the 3 programs needed to c
   - relies on MediaPipe’s handmodule, which sections the hand into 20 distinct points
   - the main function handles the OpenCV/Computer Vision component of project
   - draws the camera window, tracks current gesture, then sends the number of finger’s held up to the MBED through the send_command() function.
+  ```
+  
+  ```
 2. **Project_Wifi_Config**
   - located in both MBED repo and Github
   - download the program to the MBED to ensure the ESP8266 is connected to your wifi network
   - terminal will display the IP address of the server (change the address in handetracker_to_Server.py accordingly)
   - the SSID and password of the network is saved to the ESP8266, may need to be rerun if the wifi disconnects
+  - below is a screenshot of the MBED terminal (through PuTTY), showing the ESP8266 is configured
+  ![Project_Wifi_Config_Terminal](https://user-images.githubusercontent.com/48961286/145517270-cdb9c3b7-ba24-4635-a268-82000da41022.PNG)
+
 3. **Project_Wifi_Server**
   - located in both MBED repo and Github
   - initializes server, so it is ready to interpret messages from the Pi into motion
+  - below is a screenshot of the MBED terminal (through PuTTY) showing the server is online and ready to receive the Pi's commands
+  ![Creation of Server](https://user-images.githubusercontent.com/48961286/145517346-c388413e-a316-42bd-9998-693b79ddc301.PNG)
+
 
 
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)

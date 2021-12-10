@@ -20,7 +20,7 @@ Feng Yunchu, Faiza Yousuf, Harry Nguyen, Christine Saw
 - [Future Improvements](README.md#future-improvements)
 
 # Overview
-This project aims to create a hand gesture-controlled car that can recognize hand commands to move and perform four motions. It uses a Pi camera to capture hand gestures, a Raspberry Pi 4 to interface with the Pi camera and translate detected hand gestures into commands that are sent to a server run by an MBED (using a ESP8266 module). Finally, the MBED takes the commands and moves the robot accordingly.
+This project aims to create a hand gesture-controlled car that can recognize hand commands to move and perform four motions (forward, reverse, right turn, left turn). It uses a Pi camera to capture hand gestures, a Raspberry Pi 4 to interface with the Pi camera and translate detected hand gestures into commands that are sent to a server run by an MBED (using a ESP8266 module). Finally, the MBED takes the commands and moves the robot accordingly.
 
 <img src="https://user-images.githubusercontent.com/78784280/145411276-7d4bd055-054c-4d5b-b3a5-7a5d652541ab.png" width="850">
 
@@ -35,7 +35,7 @@ This project aims to create a hand gesture-controlled car that can recognize han
   - Dual H-bridge breakout board 
   - 4 LED lights (and 330 Ohm resistors)
   - Power supply with stable amp (4AA battery pack and power bank)
-  - ESP8266 module
+  - ESP8266 Adafruit module
 
 - Software:
   - Python 3

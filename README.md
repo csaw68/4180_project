@@ -53,7 +53,54 @@ Our design does not include the "Nub Caster":
   <img src="https://user-images.githubusercontent.com/48961286/145506225-1a25da07-c843-4ff9-9a81-8418eba2676a.png">
 It's purpose it to balance the robot so it's always parallel to the floor; however, it frequently scraped against the ground and interferred with the intended trajectory of the robot's movements, and resulted in slanted motions.
 ### To compensate, the speeds and durations for each motion is as follows (found in Project_Wifi_Server):
+Turns are at full speed and last half a second. Forward and Reverse are at 80% pwm and last five seconds. 
+```
+void LeftTurn(){
+       //left
+        led4=1;
+        Left.speed(-1.0);
+        Right.speed(1.0);
+        wait(0.5);
+        Left.speed(0.0);
+        Right.speed(0.0);
+        led4=0;
+}
+void RightTurn(){
+        //right
+        led3=1; 
+        Left.speed(1.0);
+        Right.speed(-1.0);
+        wait(0.5);
+        Left.speed(0.0);
+        Right.speed(0.0);
+        led3=0;    
+    
+}
 
+void Forward(){
+        //forward
+        led1=1;
+        Left.speed(0.8);
+        Right.speed(0.8);
+        wait(5);
+        Left.speed(0.0);
+        Right.speed(0.0);
+        led1=0;
+}
+
+
+void Reverse(){
+     //reverse
+    led2=1;
+    Left.speed(-0.8);
+    Right.speed(-0.8);
+    wait(5);
+    Left.speed(0.0);
+    Right.speed(0.0);
+    led2=0;
+}
+
+```
 
 ## Pin Connection of the Pi
 <img src="https://user-images.githubusercontent.com/78784280/145406918-eed09443-98ee-4211-9d10-eaa107adf42a.PNG" width="500">

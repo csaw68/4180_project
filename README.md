@@ -178,7 +178,15 @@ The video above summarizes the basic functionality of the 3 programs needed to c
   - the main function handles the OpenCV/Computer Vision component of project
   - draws the camera window, tracks current gesture, then sends the number of finger’s held up to the MBED through the send_command() function.
   ```
-  
+  def send_command(data_in):
+    API_ENDPOINT='http://192.168.1.10/'## ESP8266 server address
+    data ={'command': data_in}##will send 'command==#' to server (only numbers 1,2,3, and 4 will result in motion)
+    
+    try:
+        requests.post(url = API_ENDPOINT, data = data)##posts data to API_ENDPOINT address
+    except Exception:
+        pass
+    pass
   ```
 2. **Project_Wifi_Config**
   - located in both MBED repo and Github

@@ -139,6 +139,7 @@ The number of fingers held up by the user will determine the robot’s movement.
 | 5  | Hand Detected - Alerts Users that their hand is visible and gestures will be tracked |
 
 When handtracker_to_Server.py is run, red dots appear on the hand when the hand is recognized. Also, the camera view has prompts to alert the user what is happening. In this case, the hand is now visible and the user is ready to make a gesture.
+
 ![4180HandCapture](https://user-images.githubusercontent.com/48961286/145516818-f8dc7ac0-6c26-4e83-aff4-f62e1844fe4b.PNG)
 
 
@@ -230,6 +231,7 @@ Short demo video of the robot's operations: https://www.youtube.com/watch?v=9tCQ
 
 # In Class Presentation
 https://docs.google.com/presentation/d/1Q2dnvHehjRTc9gWVgPLmKQxMYCxeDP0f9oN5fYWSIe4/edit?usp=sharing
+
 [back to top](README.md#hand-gesture-controlled-robot-through-opencv-and-an-iot-webserver)
 
 # Future Improvements
